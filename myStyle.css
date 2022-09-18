@@ -1,0 +1,11 @@
+h1 {
+    color :rgb(0, 255, 106);
+}
+li {
+    color :brown;
+    font-size: 30px;
+    list-style-type: decimal-leading-zero;
+}
+#chance {
+    color :blueviolet;
+}
