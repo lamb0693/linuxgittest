@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>git test</title>
+</head>
+<body>
+    <h1>이제 변경 되엇어요</h1>
+    <form oninput="result.value = parseInt(no1.value) + parseInt(no2.value)"> 
+        <fieldset>
+            <legend>name</legend>
+            <label>
+                label Test <input type="text" name="name" style="background-color: blue;"/>
+            </label><BR>
+            <label>
+                Color Pickup <input type="color" name="color" tyle="background-color: blue;"/>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>check</legend>
+            <ol>
+                <li><input type="checkbox" value="1st">1st</li>
+                <li><input type="checkbox" value="2nd">2nd</li>
+                <li><label><input type="checkbox" value="3rd">3rd with label</label></li>
+            </ol>
+            <input type="text" list="myDatalist">
+            <datalist id="myDatalist">
+                <option value="1st" label="1st option"></option>
+                <option value="2nd" label="2nd option"></option>
+                <option value="3rd"></option>
+                <option value="4th"></option>
+            </datalist>
+        </fieldset>
+        <hr>
+        no1 : <input id="no1" type="number"/> + no2 : <input id="no2" type="number"/> = 
+        <output name="result"></output>
+    </form>
+</body>
+</html>
